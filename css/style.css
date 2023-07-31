@@ -1,1 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    background: url('../img/bg.png') center center/cover;
+}
+
+header {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h2 {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    height: 80%;
+    margin-right: 3%;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.row {
+    flex: 0 0 0.50%;
+}
+
+.row iframe {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
