@@ -50,3 +50,9 @@ h2 {
     margin-right: 10px;
     margin-bottom: 15px;
 }
+
+.notice {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
